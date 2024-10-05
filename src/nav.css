@@ -1,0 +1,35 @@
+/* nav.css */
+
+.nav-bar {
+    background-color: black; /* Set the background color of the navbar */
+    padding: 10px 20px; /* Add padding for aesthetics */
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+    box-shadow: 0 2px 8px #ff6700; /* Add a subtle shadow */
+}
+
+.navlinks {
+    display: flex; /* Arrange links in a row */
+}
+
+.navlink {
+    color: white; /* Set the color of the nav links */
+    margin-left: 15px; /* Space between links */
+    padding: 10px 20px; /* Add padding for a button-like appearance */
+    border: 2px solid #ff6700; /* Add a border with the new color */
+    border-radius: 5px; /* Round the corners */
+    text-decoration: none; /* Remove underline */
+    background-color: transparent; /* Transparent background */
+    font-weight: bold; /* Make the text bold */
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 0 5px #ff6700; /* Add an orange glow to the link */
+}
+
+/* Hover effects for the buttons */
+.navlink:hover {
+    background-color: #ff6700; /* Change background on hover */
+    color: black; /* Change text color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 0 10px #ff6700; /* Increase glow effect on hover */
+}
+

@@ -1,0 +1,21 @@
+.image-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Center images in the container */
+    align-items: flex-end; /* Align images vertically */
+    padding: 170px; /* Add padding around the images */
+}
+
+.image-container img {
+    width: 500px; /* Adjust width for larger images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ff6700; /* Border color and thickness */
+    border-radius: 30px; /* Rounded corners */
+    padding: 30px; /* Space between image and border */
+    background-color: #000; /* Optional: Add background color inside the border */
+    transition: transform 0.3s; /* Transition effect for hover */
+    margin: 0 10px; /* Add margin between images */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}

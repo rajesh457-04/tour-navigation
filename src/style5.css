@@ -1,0 +1,79 @@
+/* style5.css */
+body {
+    background-color: black; /* Ensure the background is black */
+    color: white; /* Set text color to white */
+}
+
+.form-container {
+    max-width: 400px; /* Set a max width for forms */
+    margin: 50px auto; /* Center the form vertically and horizontally */
+    padding: 20px; /* Add padding */
+    border-radius: 8px; /* Round corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: gold; /* Gold color for heading */
+}
+
+.input {
+    margin-bottom: 20px; /* Space between inputs */
+}
+
+.input .icon {
+    position: absolute; /* Position icon inside the input */
+    padding: 10px; /* Space around icon */
+    color: white; /* White icon color */
+}
+
+.input input {
+    width: 100%; /* Full width input */
+    padding: 10px 40px; /* Space for icon */
+    border: 1px solid #ff6700; /* Border color */
+    border-radius: 5px; /* Round the corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent input background */
+    color: white; /* Input text color */
+}
+
+.input input:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: #ffc107; /* Highlight border on focus */
+}
+
+.btn {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for button */
+    background-color: #ff6700; /* Button color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round the corners */
+    color: black; /* Button text color */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #ffc107; /* Highlight button on hover */
+}
+/* style5.css */
+/* Existing styles remain unchanged */
+
+.image-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: space-between; /* Space the images evenly */
+    padding: 20px; /* Add padding around the images */
+}
+
+.image-container img {
+    width: 200px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #ff6700; /* Border color and thickness */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Transition effect for hover */
+}
+
+.image-container img:hover {
+    transform: scale(1.05); /* Scale up on hover */
+}
